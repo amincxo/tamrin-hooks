@@ -6,6 +6,10 @@ const Logger = () => {
 
     useEffect(()=>{
         console.log(number)
+
+        return () => {
+            console.log("component is removed")
+        }
     }, [])
     return (
         <div>
