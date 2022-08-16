@@ -1,10 +1,10 @@
 import React  from "react"
-import Form from "./components/Form";
+import Logger from "./components/Logger";
 
 function App() {
   return (
     <div >
-        <Form />
+        <Logger />
     </div>
   );
 }
