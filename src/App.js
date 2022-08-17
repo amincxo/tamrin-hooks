@@ -5,7 +5,7 @@ export const NameContext = createContext()
 
 const App = () => {
     
-    const [name, setname] = useState('aminamaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
+    const [name, setname] = useState('aminam');
 
     return (
         <div>
