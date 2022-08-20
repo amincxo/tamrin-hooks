@@ -1,17 +1,13 @@
-import React ,{useState , createContext}  from "react"
-import ComponentA from "./components/ComponentA";
+import React from "react"
+import Counter from "./components/Counter";
 
-export const NameContext = createContext()
 
 const App = () => {
     
-    const [name, setname] = useState('aminam');
 
     return (
         <div>
-             <NameContext.Provider value={name} >
-                <ComponentA />
-             </NameContext.Provider>
+            <Counter />
         </div>
     );
 };
