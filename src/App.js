@@ -1,5 +1,6 @@
 import React from "react"
 import Counter from "./components/Counter";
+import NewCounter from "./components/NewCounter"
 
 
 const App = () => {
@@ -8,6 +9,8 @@ const App = () => {
     return (
         <div>
             <Counter />
+            <br/>
+            <NewCounter />
         </div>
     );
 };
