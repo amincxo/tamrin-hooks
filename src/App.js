@@ -2,6 +2,7 @@ import React from "react"
 import Counter from "./components/Counter";
 import NewCounter from "./components/NewCounter"
 import Getdata from "./components/Getdata";
+import NewGetData from "./components/NewGetData";
 
 
 const App = () => {
@@ -12,7 +13,9 @@ const App = () => {
             {/* <Counter /> */}
             {/* <br/> */}
             {/* <NewCounter /> */}
-            <Getdata />
+            {/* <Getdata /> */}
+            <br/>
+            <NewGetData />
         </div>
     );
 };
