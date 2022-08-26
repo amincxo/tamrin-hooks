@@ -3,6 +3,7 @@ import Counter from "./components/Counter";
 import NewCounter from "./components/NewCounter"
 import Getdata from "./components/Getdata";
 import NewGetData from "./components/NewGetData";
+import UseMemo from "./components/UseMemo";
 
 
 const App = () => {
@@ -11,11 +12,10 @@ const App = () => {
     return (
         <div>
             {/* <Counter /> */}
-            {/* <br/> */}
             {/* <NewCounter /> */}
             {/* <Getdata /> */}
-            <br/>
-            <NewGetData />
+            {/* <NewGetData /> */}
+            <UseMemo />
         </div>
     );
 };
