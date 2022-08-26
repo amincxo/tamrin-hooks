@@ -4,6 +4,7 @@ import NewCounter from "./components/NewCounter"
 import Getdata from "./components/Getdata";
 import NewGetData from "./components/NewGetData";
 import UseMemo from "./components/UseMemo";
+import UseCallback from "./components/UseCallback";
 
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
             {/* <NewCounter /> */}
             {/* <Getdata /> */}
             {/* <NewGetData /> */}
-            <UseMemo />
+            {/* <UseMemo /> */}
+            <UseCallback />
         </div>
     );
 };
