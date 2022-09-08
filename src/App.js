@@ -6,7 +6,7 @@ import NewGetData from "./components/NewGetData";
 import UseMemo from "./components/UseMemo";
 import UseCallback from "./components/UseCallback";
 import UseRef from "./components/UseRef";
-
+import CustomHook from "./components/CustomHook";
 
 const App = () => {
     
@@ -19,7 +19,8 @@ const App = () => {
             {/* <NewGetData /> */}
             {/* <UseMemo /> */}
             {/* <UseCallback /> */}
-            <UseRef />
+            {/* <UseRef /> */}
+            <CustomHook />
 
         </div>
     );
