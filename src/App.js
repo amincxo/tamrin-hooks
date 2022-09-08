@@ -5,6 +5,7 @@ import Getdata from "./components/Getdata";
 import NewGetData from "./components/NewGetData";
 import UseMemo from "./components/UseMemo";
 import UseCallback from "./components/UseCallback";
+import UseRef from "./components/UseRef";
 
 
 const App = () => {
@@ -17,7 +18,9 @@ const App = () => {
             {/* <Getdata /> */}
             {/* <NewGetData /> */}
             {/* <UseMemo /> */}
-            <UseCallback />
+            {/* <UseCallback /> */}
+            <UseRef />
+
         </div>
     );
 };
