@@ -7,6 +7,7 @@ import UseMemo from "./components/UseMemo";
 import UseCallback from "./components/UseCallback";
 import UseRef from "./components/UseRef";
 import CustomHook from "./components/CustomHook";
+import LocalStorage from "./components/LocalStorage";
 
 const App = () => {
     
@@ -20,8 +21,8 @@ const App = () => {
             {/* <UseMemo /> */}
             {/* <UseCallback /> */}
             {/* <UseRef /> */}
-            <CustomHook />
-
+            {/* <CustomHook /> */}
+            <LocalStorage />
         </div>
     );
 };
