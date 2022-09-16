@@ -8,6 +8,8 @@ import UseCallback from "./components/UseCallback";
 import UseRef from "./components/UseRef";
 import CustomHook from "./components/CustomHook";
 import LocalStorage from "./components/LocalStorage";
+import ExsamLocalStorage from "./components/ExsamLocalStorage";
+
 
 const App = () => {
     
@@ -22,7 +24,8 @@ const App = () => {
             {/* <UseCallback /> */}
             {/* <UseRef /> */}
             {/* <CustomHook /> */}
-            <LocalStorage />
+            {/* <LocalStorage /> */}
+            <ExsamLocalStorage />
         </div>
     );
 };
